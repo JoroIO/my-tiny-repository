@@ -1,0 +1,9 @@
+CREATE TABLE `moviefilter`.`users`(
+	`id` INT(35) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+	`fname` VARCHAR(120) NOT NULL,
+	`lname` VARCHAR(120) NOT NULL,
+	`uname` VARCHAR(120) NOT NULL,
+	`email` VARCHAR(120) NOT NULL,
+	`password` VARCHAR(120) NOT NULL,
+	`gender` VARCHAR(120) NOT NULL
+) ENGINE = InnoDB;
